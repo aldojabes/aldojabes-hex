@@ -4,20 +4,19 @@ function computeResults(operand1,operand2,operation){
     operand1 = parseInt(operand1);
     operand2 = parseInt(operand2)
 
-    if(operation == '+'){
+    if(operation == "+"){
         return operand1+operand2
     }
-    if(operation == '-'){
+    if(operation == "-"){
         return operand1-operand2
     }
-    if(operation == '*'){
+    if(operation == "*"){
         return operand1*operand2
     }
-    if(operation == '/'){
+    if(operation == "/"){
         return operand1/operand2
     }
-    console.log("test")
-    return "Invalid inputs";
+    return "operand is invalid";
 
 }
 
