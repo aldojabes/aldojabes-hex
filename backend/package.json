@@ -6,13 +6,19 @@
     "hbs": "^4.2.0",
     "nodemon": "^2.0.20"
   },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
   "name": "backend",
   "version": "1.0.0",
   "description": "A backend for calculator app",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npm run tests ",
+    "test": "jest",
     "serve": "nodemon index.js"
   },
   "author": "Burigo Aldo Jabes",
