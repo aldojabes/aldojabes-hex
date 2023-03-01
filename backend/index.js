@@ -10,6 +10,6 @@ app.use(cors());
 app.use(express.json());
 app.use('/calculate', applicationroutes);
  
-app.listen(PORT, () => console.log("Server running at port "+PORT));
+app.listen(PORT, () => console.log(`Server running at port ${PORT}`));
 
 export default { app };

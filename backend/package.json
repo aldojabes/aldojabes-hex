@@ -21,7 +21,7 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "serve": "node index.js"
+    "start": "node index.js"
   },
   "author": "Burigo Aldo Jabes",
   "license": "ISC",
